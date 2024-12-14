@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSEP Araxá</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f8f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #00823e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header .logo {
+            max-width: 150px;
+            margin-bottom: 0.5rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        header nav a {
+            color: #00A9E0;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 2rem 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #00823e;
+        }
+
+        .project {
+            background-color: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #00823e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button,
+        .btn {
+            align-self: center;
+            padding: 0.7rem 1.5rem;
+            background-color: #00823e;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover,
+        .btn:hover {
+            background-color: #00592c;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <!-- Inserção da logo -->
+            <img src="logoconsep1.jpeg" alt="Logo do CONSEP Araxá" class="logo">
+            <h1>CONSEP Araxá</h1>
+            <p>Conselho Comunitário de Segurança Pública de Araxá</p>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#transparencia">Transparência</a></li>
+                    <li><a href="#denuncias">Denúncias Anônimas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>O CONSEP Araxá é uma organização dedicada a promover a segurança pública e o bem-estar dos cidadãos, em colaboração com as autoridades locais e a comunidade. Nosso compromisso é fortalecer ações que melhorem a segurança e incentivem uma participação ativa na prevenção de crimes e violência.</p>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos e Campanhas</h2>
+
+            <div class="project">
+                <h3>Campanha Iluminada</h3>
+                <p>Este projeto visa melhorar a iluminação pública em áreas de risco de Araxá, colaborando com a Prefeitura para instalar novas luminárias em locais estratégicos. A Campanha Iluminada busca reduzir ocorrências de crimes e proporcionar maior tranquilidade à população.</p>
+            </div>
+
+            <div class="project">
+                <h3>Arte e Prevenção às Drogas</h3>
+                <p>Um projeto educativo que utiliza teatro e palestras interativas para conscientizar jovens de 15 a 17 anos sobre os perigos das drogas. Esta iniciativa busca fortalecer a prevenção através da arte, criando um ambiente onde os adolescentes possam discutir e aprender sobre escolhas saudáveis.</p>
+            </div>
+
+            <div class="project">
+                <h3>Apoie Nossos Projetos</h3>
+                <p>Faça uma doação e ajude o CONSEP a realizar projetos de segurança pública em Araxá. Toda contribuição é essencial para apoiar nossas campanhas de prevenção e melhoria da infraestrutura urbana.</p>
+                <a href="#doar" class="btn">Doar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Transparência -->
+    <section id="transparencia" class="section">
+        <div class="container">
+            <h2>Portal de Transparência</h2>
+            <p>O CONSEP Araxá preza pela transparência em suas ações e no uso de recursos públicos e doações. Consulte nosso portal para acessar relatórios financeiros, acompanhar os gastos de cada projeto e entender como as doações estão sendo investidas na segurança da comunidade.</p>
+            <a href="#relatorios" class="btn">Acessar Relatórios</a>
+        </div>
+    </section>
+
+    <!-- Seção Denúncias Anônimas -->
+    <section id="denuncias" class="section">
+        <div class="container">
+            <h2>Denúncias Anônimas e Sugestões</h2>
+            <p>Ajude-nos a melhorar a segurança pública de Araxá. Utilize o formulário abaixo para enviar denúncias anônimas ou sugestões de melhorias para nossa cidade. Seu anonimato será preservado.</p>
+            <form action="mailto:consep@araxa.com" method="post" enctype="text/plain">
+                <label for="denuncia">Denúncia/Sugestão:</label>
+                <textarea id="denuncia" name="denuncia" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="mailto:consep@araxa.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CONSEP Araxá - Todos os direitos reservados</p>
+            <p>Desenvolvido por [Seu Nome]</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
